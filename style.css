@@ -12,8 +12,8 @@ body {
     flex-direction: column;
 }
 .flex-item {
-    border: red solid 1px;
-    background-color: pink;
+    border: black solid 1px;
+    background-color: salmon;
     margin: 10px 10px;
 }
 .big {
@@ -46,4 +46,9 @@ nav,
     text-transform: uppercase;
     font-weight: bold;
     color: green;
+}
+.flex_item1{
+    height: 250px;
+    width: 250px;
+    color: blueviolet;
 }
