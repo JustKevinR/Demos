@@ -52,3 +52,52 @@ nav,
     width: 250px;
     color: blueviolet;
 }
+.flex-lol {
+    display: flex;
+    flex-flow: row wrap;
+    background-color:salmon;
+    border: black solid 1px;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.flex-lol > div{
+    background-color: salmon;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.flex-container {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color: salmon;
+    }
+  
+    .flex-container > div {
+      background-color: #f1f1f1;
+      width: 100px;
+      margin: auto;
+      text-align: center;
+      line-height: 75px;
+      font-size: 30px;
+    }
+    .flex-lio {
+      display: flex;
+      height: 600px;
+      flex-wrap: wrap;
+      align-content: space-between;
+      background-color: salmon;
+      }
+    
+      .flex-lio > div {
+        background-color: #f1f1f1;
+        width: 100px;
+        margin: auto;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
