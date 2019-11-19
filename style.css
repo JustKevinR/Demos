@@ -15,6 +15,7 @@ body {
     border: black solid 1px;
     background-color: salmon;
     margin: 10px 10px;
+	height: 700px;
 }
 .big {
     flex: 1;
@@ -38,6 +39,7 @@ nav,
     display: flex;
     justify-content: center;
     align-items: center;
+	height: 120px;
 
 }
 .flex-nav a {
@@ -71,7 +73,7 @@ nav,
 }
 .flex-container {
     display: flex;
-    height: 600px;
+    height: 400px;
     flex-wrap: wrap;
     align-content: space-between;
     background-color: salmon;
@@ -79,11 +81,14 @@ nav,
   
     .flex-container > div {
       background-color: #f1f1f1;
-      width: 100px;
+      width: 300px;
+	  height: 300px;
       margin: auto;
       text-align: center;
       line-height: 75px;
       font-size: 30px;
+	  border-style: solid;
+	  border-width: 40px;
     }
     .flex-lio {
       display: flex;
@@ -91,13 +96,18 @@ nav,
       flex-wrap: wrap;
       align-content: space-between;
       background-color: salmon;
+	  height: 300px;
+	  
       }
     
       .flex-lio > div {
         background-color: #f1f1f1;
-        width: 100px;
+        width: 300px;
+		height: 300px;
         margin: auto;
         text-align: center;
         line-height: 75px;
         font-size: 30px;
+		border-style: solid;
+	    border-width: 40px;
       }
