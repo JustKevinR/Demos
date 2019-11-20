@@ -82,7 +82,7 @@ nav,
     }
   
     .flex-container > div {
-      background-color: #f1f1f1;
+      background-color: salmon;
       width: 250px;
 	  height: 250px;
       margin: auto;
@@ -104,7 +104,7 @@ nav,
       }
     
       .flex-lio > div {
-        background-color: #f1f1f1;
+        background-color: salmon;
         width: 250px;
 		height: 250px;
         margin: auto;
@@ -119,5 +119,4 @@ nav,
           color: white;
           text-decoration-style: wavy; 
       }
-      
       
