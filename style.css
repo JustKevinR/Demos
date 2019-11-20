@@ -6,6 +6,7 @@
 html,
 body {
     height: calc(100% - 10px);
+    background-color: lightskyblue;
 }
 body {
     display: flex;
@@ -15,7 +16,8 @@ body {
     border: black solid 1px;
     background-color: salmon;
     margin: 10px 10px;
-	height: 700px;
+    height: 700px;
+    <h1>
 }
 .big {
     flex: 1;
@@ -81,14 +83,15 @@ nav,
   
     .flex-container > div {
       background-color: #f1f1f1;
-      width: 300px;
-	  height: 300px;
+      width: 250px;
+	  height: 250px;
       margin: auto;
       text-align: center;
-      line-height: 75px;
+      line-height: 222px;
       font-size: 30px;
-	  border-style: solid;
-	  border-width: 40px;
+      border-style:solid ;
+      border-width: 10px;
+      border-color: salmon;
     }
     .flex-lio {
       display: flex;
@@ -102,12 +105,19 @@ nav,
     
       .flex-lio > div {
         background-color: #f1f1f1;
-        width: 300px;
-		height: 300px;
+        width: 250px;
+		height: 250px;
         margin: auto;
         text-align: center;
-        line-height: 75px;
+        line-height: 222px;
         font-size: 30px;
 		border-style: solid;
-	    border-width: 40px;
+        border-width: 10px;
+        border-color:salmon ;
       }
+      h1{
+          color: white;
+          text-decoration-style: wavy; 
+      }
+      
+      
