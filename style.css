@@ -4,11 +4,12 @@
     align-items: center;
     margin: 24px;
 }
-#text-box{
-    font-size: 19px;
+
+#text-box {
+    font-size: 18px;
 }
 
-#tping-area {
+#typing-area {
     margin: 24px;
     padding: 8px;
     font-size: 14px;
@@ -16,7 +17,30 @@
     height: 120px;
 }
 
+#feedback {
+    color: red;
+    font-size: 48px;
+    font-weight: bold;
+}
+
 .highlight {
     color: blue;
     font-weight: bold;
+
+}
+
+.incorrect {
+    color: red;
+    font-weight: bold;
+}
+
+.correct {
+    color: greenyellow;
+    font-weight: bold;
+}
+
+#timer {
+    color: magenta;
+    font-weight: bold;
+
 }
