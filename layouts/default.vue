@@ -2,13 +2,16 @@
   <div class="container">
     <AppHeader />
     <nuxt />
+    <Bottom />
   </div>
 </template>
 <script>
 import AppHeader from '~/components/AppHeader.vue'
+import Bottom from '~/components/Bottom.vue'
 export default {
   components: {
     AppHeader,
+    Bottom,
   },
 }
 </script>
