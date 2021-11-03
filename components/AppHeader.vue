@@ -6,9 +6,6 @@
         <nuxt-link to="/">Home</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/jokes/jokes">API</nuxt-link>
-      </li>
-      <li>
         <nuxt-link to="/about">About</nuxt-link>
       </li>
     </ul>
@@ -26,23 +23,29 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(65, 8, 75, 0.719);
+  background-color: rgba(85, 19, 97, 0.719);
   padding-left: 1rem;
   padding-right: 1rem;
 }
-.header .title {
-  font-size: 4rem;
-  color: #526488;
+.title {
+  font-size: 3rem;
+  font-weight: bold;
 }
+
 .header ul {
   display: flex;
 }
 .header a {
+  text-decoration: none;
   display: inline-block;
-  background: #333;
   color: #fff;
   font-size: 2rem;
   padding: 0.3rem 1rem;
-  margin-right: 0.5rem;
+  margin-right: 1rem;
+  border-bottom: red solid 0.2rem;
+}
+.header a:hover {
+  color: gray;
+  border-bottom: gray solid 0.2rem;
 }
 </style>

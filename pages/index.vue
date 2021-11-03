@@ -1,5 +1,7 @@
 <template>
-  <h2>Welcome</h2>
+  <div class="welcome">
+    <h1>Welcome</h1>
+  </div>
 </template>
 <script>
 export default {
@@ -17,3 +19,11 @@ export default {
   },
 }
 </script>
+
+<style>
+.welcome {
+  display: flex;
+  justify-content: center;
+  font-size: 10rem;
+}
+</style>
