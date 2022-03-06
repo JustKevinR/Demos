@@ -1,0 +1,25 @@
+
+.setup {
+
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    
+
+}
+body {
+    background-image: url("https://www.onetip.net/wp-content/uploads/2012/03/Nice-Comments-for-Facebook-300x300.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+
+    
+}
+#yez {
+    height: 400px;
+    text-align: center;
+    font-size: 300px;
+    text-decoration: underline;
+    text-decoration-color: rgb(228, 228, 228);
+}
