@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: calc(100% - 10px);
+    background-color: lightskyblue;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.flex-item {
+    border: black solid 1px;
+    background-color: salmon;
+    margin: 10px 10px;
+    height: 700px;
+    <h1>
+}
+.big {
+    flex: 1;
+}
+.logo {
+    margin-right: auto;
+}
+.side {
+    width: 250px;
+}
+.flex {
+    display: flex;
+    justify-content: flex-end;
+}
+nav,
+.footer .flex-item {
+    height: 100px;
+}
+.flex-nav {
+    padding: 0 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	height: 120px;
+
+}
+.flex-nav a {
+    text-decoration: none;
+    margin: 0 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: green;
+}
+.flex_item1{
+    height: 250px;
+    width: 250px;
+    color: blueviolet;
+}
+.flex-lol {
+    display: flex;
+    flex-flow: row wrap;
+    background-color:salmon;
+    border: black solid 1px;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.flex-lol > div{
+    background-color: salmon;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.flex-container {
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color: salmon;
+    }
+  
+    .flex-container > div {
+      background-color: salmon;
+      width: 250px;
+	  height: 250px;
+      margin: auto;
+      text-align: center;
+      line-height: 222px;
+      font-size: 30px;
+      border-style:solid ;
+      border-width: 10px;
+      border-color: salmon;
+    }
+    .flex-lio {
+      display: flex;
+      height: 600px;
+      flex-wrap: wrap;
+      align-content: space-between;
+      background-color: salmon;
+	  height: 300px;
+	  
+      }
+    
+      .flex-lio > div {
+        background-color: salmon;
+        width: 250px;
+		height: 250px;
+        margin: auto;
+        text-align: center;
+        line-height: 222px;
+        font-size: 30px;
+		border-style: solid;
+        border-width: 10px;
+        border-color:salmon ;
+      }
+      h1{
+          color: white;
+          text-decoration-style: wavy; 
+      }
+      
