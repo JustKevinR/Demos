@@ -1,0 +1,71 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color: black;
+    overflow: hidden;
+}
+
+.card-group{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: .5rem;
+    align-items: flex-start;
+}
+
+.card{
+    background-color: black;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: .25rem;
+}
+
+h2, p{
+    margin: 0;
+}
+
+.cutoff-txt{
+    --max-lines: 3;
+    --line-height: 1.4;
+
+    max-height: calc(var(--max-lines) * 1em * var(--line-height));
+    overflow: hidden;
+    line-height: var(--line-height);
+    position: relative;
+}
+
+.cutoff-txt:has(+ .expand:not(:checked)):before{
+    content: "";
+    position: absolute;
+    height: calc(1em * var(--line-height));
+    width: 100%;
+    bottom: 0;
+    pointer-events: none;
+    background: linear-gradient(to bottom, transparent, black);
+}
+.expand{
+    appearance: none;
+    border: solid 1px white;
+    padding: .5rem;
+    border-radius: .25rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.expand:hover{
+    background-color: black;
+}
+
+.expand::before{
+    content: 'expand';
+}
+
+.expand:checked:before{
+    content: 'collapse';
+}
+
+.cutoff-txt:has(+ .expand:checked){
+    max-height: none;
+}
